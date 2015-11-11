@@ -446,6 +446,7 @@
 				height : this.chart.height,
 				width : this.chart.width,
 				ctx : this.chart.ctx,
+				labelsFilter: this.options.labelsFilter,
 				textColor : this.options.scaleFontColor,
 				fontSize : this.options.scaleFontSize,
 				fontStyle : this.options.scaleFontStyle,
