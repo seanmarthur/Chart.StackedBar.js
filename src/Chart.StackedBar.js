@@ -16,6 +16,11 @@
 	var helpers = Chart.helpers;
 
 	var defaultConfig = {
+		//Function - Whether the current x-axis label should be filtered out, takes in current label and 
+	        //index, return true to filter out the label return false to keep the label
+	        labelsFilter: function(label, index) {
+	            return false;
+	        },
 		scaleBeginAtZero : true,
 
 		//Boolean - Whether grid lines are shown across the chart
